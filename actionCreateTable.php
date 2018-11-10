@@ -1,9 +1,6 @@
 <?php
 session_start();
-if ($_SESSION['login']!=='Елена' || $_SESSION['password']!=='789') {
-header("Location:tableList.php");
-exit();
-}
+require('admittance.php');
 require('connect.php');
 
 if (!empty($_POST['description'])) {
