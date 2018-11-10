@@ -1,5 +1,5 @@
 <?php
-if ($_SESSION['login']!=='Елена' || $_SESSION['password']!=='789') {
+if ($_SESSION['login']!=='XXXXX' || $_SESSION['password']!=='XXXXX') {
 header("Location:tableList.php");
 exit();
 }
